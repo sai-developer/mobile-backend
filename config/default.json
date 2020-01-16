@@ -1,0 +1,45 @@
+{
+    "configVariables": {
+      "projectUrl" : "v2",
+      "dbConfig": {
+        "host": "localhost",
+        "port": 5432,
+        "dbName": "legacy_db",
+        "user": "atma_user",
+        "password": "tsi1234$$"
+      },
+      "mongoDB": {
+        "host": "localhost",
+        "port": 27017,
+        "dbName": "totem_dev",
+        "userName": "admin",
+        "password": "changeit",
+        "dbUserName": "appuser",
+        "dbPassword": "tsi1234$$"
+      },
+      "urbanAirship": {
+        "apiKey": "31NgJ0MvQI-58N4eKWEepg",
+        "apiSecretKey": "_B0vUjWhT16OdGXMzMZm",
+        "apiMasterKey": "nn0sCAM9TL2NGfbNxMklaA"
+      },
+      "mqtt": {
+        "username": "backend",
+        "password":"backend",
+        "port": 1883,
+        "host": "localhost",
+        "rejectUnauthorized" : true,
+        "clientId" : "backend-",
+        "clean" :true
+      }
+        },
+        "dataConfig": {
+          "flightCompleted" : {
+            "0" : ["chocks off"],
+            "1" : ["chocks off"],
+            "2" : ["chocks off"],
+            "3" : ["Pax disembarkation complete","Cargo Hold closed"]
+          }
+        }
+  
+  }
+  
